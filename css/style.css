@@ -1,0 +1,108 @@
+/* Global reset and basic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-size: 12px !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 0.2rem !important;
+  }
+  
+  /* Header Styles */
+ header {
+    background-color: #ffffff !important;
+    color: #000;
+    padding: 10px 0;
+    position: relative;
+    left: 3%;
+  } 
+  
+  .header-new {
+    background-color: #ffffff !important;
+    color: #000;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    
+  }
+
+  header h1 {
+    display: inline-block;
+    font-size: 20px; 
+    font-weight: 700;
+  }
+  
+  header nav {
+    padding-top: 15px;
+    margin-right: 30px;
+    float: right;
+    font-family: 'Arial', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px; 
+  }
+
+  .header-main {
+    padding-top: 15px;
+    margin-right: 30px;
+    float: right;
+    font-family: 'Arial', 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    display: contents;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 0.2rem;
+  }
+  
+  header ul {
+    list-style-type: none;
+  }
+  
+  header ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+
+  .header-navbar {
+    justify-content: end;
+  }
+
+  /* Hero Banner */
+  .hero-banner {
+    position: relative;
+    background: #000;
+    height: 125px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  .hero-text {
+    color: white;
+    font-size: 12px; /* Adjust the font size as needed */
+  }
+  
+.hero-text h2 {
+    font-size: 12px; 
+    font-weight: 700;
+  }
+
+  /* about me image */
+#profile-img{
+    width: 20%;
+  }
+
+.about-container {
+    text-align: left;
+    border-top: solid 1px black;
+    margin: 20px auto;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.about-container h2 {
+    font-size: 12px; 
+    font-weight: 700;
+  }
